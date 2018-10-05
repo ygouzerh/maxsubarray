@@ -37,14 +37,16 @@ You simply need to add your strategy in the project, create a folder with the fo
 
 ## Requirements
 
->= Python 3.6
+Python 3.6
+
 pip
+
 (virtualenv) 
 
 ## Installation
 
 1. Clone the directory
-2. Creating a virtualenv ([and install it if not already done](https://virtualenv.pypa.io/en/stable/installation/)) : `python3 -m virtualenv venv`
+2. Creating a virtualenv ([and install if it is not already done](https://virtualenv.pypa.io/en/stable/installation/)) : `python3 -m virtualenv venv`
 3. Activate the virtualenv : `source venv/bin/activate`
 4. Import externals modules : `pip install -r requirements.txt`
 
